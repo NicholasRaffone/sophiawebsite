@@ -21,7 +21,7 @@ const Header = () =>{
                         Bio
                     </Link>
                 </p>
-                <p className={`${location.pathname=="/portfolio"?"underline":""} text-white text-xl`}>
+                <p className={`${location.pathname=="/gallery"?"underline":""} text-white text-xl`}>
                     <Link to="/gallery">
                         Gallery
                     </Link>

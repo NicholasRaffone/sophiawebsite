@@ -9,7 +9,7 @@ const MobileNavbar = () =>{
     }
     return(
         <div className="w-screen z-10 md:hidden">
-            <div className="z-50 p-3 w-screen flex items-center fixed">
+            <div className="p-3 z-50 w-screen flex items-center fixed ">
                 <Hamburger size={35} color="#ffffff" toggled={isOpen} toggle={setOpen} />
             </div>
             <div className={`h-screen bg-gray-900 flex z-30 flex-col space-y-5 fixed w-60 pt-20 pl-5 duration-500 transform ${!isOpen?"-translate-x-full ":""}`}>
