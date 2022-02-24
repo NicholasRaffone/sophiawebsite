@@ -8,7 +8,7 @@ const MobileNavbar = () =>{
         setOpen(false);
     }
     return(
-        <div className="w-screen z-10 md:hidden">
+        <div className="w-screen z-10 md:hidden" onScroll={()=>console.log('scrollin')}>
             <div className="p-3 z-50 w-screen flex items-center fixed ">
                 <Hamburger size={35} color="#ffffff" toggled={isOpen} toggle={setOpen} />
             </div>

@@ -1,6 +1,8 @@
+import FadeIn from "../common/fadein";
+
 const Bookings = () =>{
     return(
-        <div className="">
+        <FadeIn>
             <div className="px-6">
                 <p className="mb-3 text-5xl text-center md:text-left md:text-6xl text-white pt-20">Booking Info</p>
                 <p className="my-3 text-3xl text-white">Tattoos</p>
@@ -21,7 +23,7 @@ const Bookings = () =>{
                     </a>
                 </p>
             </div>
-        </div>
+        </FadeIn>
     )
 }
 export default Bookings;
