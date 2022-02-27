@@ -1,8 +1,8 @@
-import portrait from '../../images/Self-portrait.png'
-import angel from '../../images/angel.png'
-import ink from '../../images/ink.png'
-import pastel from '../../images/pastel.png'
-import cpencil from '../../images/cpencil.png'
+import portrait from '../../images/Self-portrait.jpg'
+import angel from '../../images/angel.jpg'
+import ink from '../../images/ink.jpg'
+import pastel from '../../images/Pastel.JPG'
+import cpencil from '../../images/cpencil.jpg'
 import FadeIn from '../common/fadein'
 const Portfolio = () =>{
     return(

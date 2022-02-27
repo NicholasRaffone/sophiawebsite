@@ -1,4 +1,4 @@
-import beach from '../../images/beach.png'
+import beach from '../../images/beach.jpg'
 import FadeIn from '../common/fadein'
 import useViewportSizes from 'use-viewport-sizes'
 

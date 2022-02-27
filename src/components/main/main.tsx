@@ -1,5 +1,4 @@
-import mainimg from '../../images/mainimg2.png'
-import Header from '../header/header'
+import mainimg from '../../images/main.jpg'
 import FadeIn from '../common/fadein'
 import {Link} from 'react-router-dom'
 import insta from '../../images/insta.png'
