@@ -18,7 +18,7 @@ const Bookings = () =>{
                     <p className="text-xl text-white ml-5">Book a consulting session for more details</p>
                 <p className="my-3 text-xl text-white">(Prices subject to change)</p>
                 <p className="text-3xl text-white text-center underline my-6">
-                    <a href="http://www.google.com" target="_blank" rel="noreferrer">
+                    <a href="https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUdWRUMxYnFFQ1llfGRlZmF1bHR8MTY4NDYzNzg1N2ZjNjRmMTdhMWIwZTE5ZTUzNGYwOTg&pli=1" target="_blank" rel="noreferrer">
                         Click here to book a session
                     </a>
                 </p>

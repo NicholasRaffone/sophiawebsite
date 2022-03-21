@@ -27,6 +27,11 @@ const Main = () =>{
                             Bookings
                         </Link>
                     </h1>
+                    <h1 className="hidden md:block text-center md:self-end md:w-fit hover:translate-x-3 hover:-translate-y-2 cursor-pointer transform text-4xl text-white border-b border-black hover:border-white duration-300">
+                        <Link to="/soon">
+                            Store
+                        </Link>
+                    </h1>
                     <div className='md:hidden self-center flex space-x-5 items-center'>
                         <a href="https://www.instagram.com/sui.ink/" target='_blank' rel="noreferrer" className=''>
                             <div className="h-8 w-8">
@@ -34,9 +39,17 @@ const Main = () =>{
                             </div>
                         </a>
                         <h1 className="text-xl text-white font-mono underline">
-                            <a href="https://www.instagram.com/sui.ink/" target='_blank' rel="noreferrer" className=''>
+                            <Link to="/soon">
+                                STORE
+                            </Link>
+                            {
+                                /**
+                                 * <a href="https://www.instagram.com/sui.ink/" target='_blank' rel="noreferrer" className=''>
                                 STORE
                             </a>
+                                 */
+                            }
+                            
                         </h1>
                     </div>
                 </div>

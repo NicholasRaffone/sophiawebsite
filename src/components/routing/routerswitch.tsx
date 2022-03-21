@@ -8,6 +8,7 @@ import Main from '../main/main'
 import Portfolio from "../portfolio/portfolio";
 import Error from '../error/error'
 import Bookings from "../bookings/bookings";
+import Soon from "../soon/soon";
   
 const RouterSwitch = () =>{
     return(
@@ -20,6 +21,9 @@ const RouterSwitch = () =>{
             </Route>
             <Route exact path="/bookings">
                 <Bookings />
+            </Route>
+            <Route exact path="/soon">
+                <Soon />
             </Route>
             <Route exact path="/">
                 <Main />

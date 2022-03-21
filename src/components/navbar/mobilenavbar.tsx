@@ -13,7 +13,6 @@ const MobileNavbar = () =>{
                 <Hamburger size={35} color="#ffffff" toggled={isOpen} toggle={setOpen} />
             </div>
             <div className={`h-screen bg-gray-900 flex z-30 flex-col space-y-5 fixed w-60 pt-20 pl-5 duration-500 transform ${!isOpen?"-translate-x-full ":""}`}>
-                <p className="text-4xl text-white">Sophia Sui</p>
                 <p className={`${location.pathname==="/"?"underline":""} text-3xl text-white ml-3`}  onClick={clickHandler}>
                     <Link to="/">Home</Link>
                 </p>
@@ -30,6 +29,22 @@ const MobileNavbar = () =>{
                         Bookings
                     </Link>
                 </p>
+                {
+                /**  
+                <a className='text-3xl text-white ml-3' href="https://google.com" target="_blank" rel="noreferrer" onClick={clickHandler}>
+                    Store
+                </a>
+                 */  
+                }
+                <p className={`text-3xl text-white ml-3`} onClick={clickHandler}>
+                    <Link to="/soon">
+                        Store
+                    </Link>
+                </p>
+                
+                <a className='text-3xl text-white ml-3' href="https://www.instagram.com/sui.ink/" target="_blank" rel="noreferrer" onClick={clickHandler}>
+                    Instagram
+                </a>
             </div>
         </div>
     )
