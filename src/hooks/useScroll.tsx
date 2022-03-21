@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 
 const useScroll = () =>{
     const scrollval = 50;
-    const [scroll, setScroll] = useState(window.scrollY < scrollval)
+    const [scroll, setScroll] = useState(false)
     const listenScrollEvent = (event:Event) => {
         if (window.scrollY < scrollval) {
             setScroll(false)
